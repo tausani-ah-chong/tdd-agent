@@ -61,10 +61,3 @@ Run vitest → should pass (green)
     ↓
 Done
 ```
-
-## What to observe for your blog post
-
-- Does Claude stay within TDD constraints?
-- How many iterations does it take to get to green?
-- Where does it try to cheat (write impl before test, write extra code)?
-- Compare this to Claude Code with TDD in CLAUDE.md
