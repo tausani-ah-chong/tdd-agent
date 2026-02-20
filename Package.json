@@ -1,0 +1,19 @@
+{
+  "name": "tdd-agent",
+  "version": "1.0.0",
+  "description": "A TDD enforcement agent using the Anthropic TypeScript SDK",
+  "type": "module",
+  "scripts": {
+    "agent": "tsx src/agent.ts",
+    "test": "vitest run sandbox/*.test.ts --reporter=verbose"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.78.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  }
+}

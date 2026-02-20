@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+
+# Personal notes
+NOTES.md
+
+# OS
+.DS_Store
+
+# Claude Code project cache
+.claude/
